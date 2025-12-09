@@ -1,0 +1,25 @@
+# Backup files - contain sensitive database data
+backups/
+*.sql
+*.sql.gz
+
+# Log files - may contain sensitive information
+logs/
+*.log
+
+# Environment files - contain credentials and secrets
+.env
+.env.local
+.env.production
+.env.*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
